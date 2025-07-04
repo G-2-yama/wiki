@@ -101,7 +101,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              href: '/docs/intro',
+              href: '/docs/about-wiki',
             },
           ],
         },

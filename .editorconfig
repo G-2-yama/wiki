@@ -7,4 +7,3 @@ insert_final_newline = true  # 最終行に空行を追加
 charset = utf-8  # 文字コードはUTF-8
 indent_style = space  # インデントは半角スペース
 indent_size = 4  # インデントはindent_style4つ分
-trim_trailing_whitespace = true  # 行末の空白を自動でトリム
