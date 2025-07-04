@@ -1,0 +1,23 @@
+{
+    "name": "G2 wiki",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "devcontainer",
+    "workspaceFolder": "/workspace",
+    // ホストのパスを環境変数としてマウント
+    "remoteEnv": {
+        "LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "EditorConfig.EditorConfig"
+            ],
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash"
+            }
+        }
+    },
+    "forwardPorts": [3000],
+    "postCreateCommand": ".devcontainer/postCreate.sh",
+    "remoteUser": "node"
+}
