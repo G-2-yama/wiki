@@ -26,12 +26,12 @@ function HomepageHeader() {
             <div className={styles.buttons}>
               <Link
                 className={clsx('button', styles.primaryButton)}
-                to="/docs/games">
+                to="/docs/test">
                 作品を見る 🎮
               </Link>
               <Link
                 className={clsx('button', styles.secondaryButton)}
-                to="/docs/about">
+                to="/docs/test">
                 サークルについて
               </Link>
             </div>
@@ -53,16 +53,16 @@ function HomepageHeader() {
 
         <div className={styles.statsSection}>
           <div className={styles.statItem}>
+            <div className={styles.statNumber}>2013年</div>
+            <div className={styles.statLabel}>サークル設立</div>
+          </div>
+          <div className={styles.statItem}>
             <div className={styles.statNumber}>5+</div>
             <div className={styles.statLabel}>リリース作品</div>
           </div>
           <div className={styles.statItem}>
             <div className={styles.statNumber}>100%</div>
             <div className={styles.statLabel}>オリジナル</div>
-          </div>
-          <div className={styles.statItem}>
-            <div className={styles.statNumber}>2013年5月</div>
-            <div className={styles.statLabel}>設立</div>
           </div>
         </div>
       </div>
@@ -73,23 +73,17 @@ function HomepageHeader() {
 function GameShowcase() {
   const games = [
     {
-      title: "最新作",
+      title: "開発中の作品",
       description: "現在開発中の新作ゲーム",
       status: "開発中",
       color: "#dc2626"
     },
     {
       title: "人気作品",
-      description: "多くのプレイヤーに愛される代表作",
+      description: "G^2の顔となる代表作",
       status: "公開中",
       color: "#059669"
     },
-    {
-      title: "実験作品",
-      description: "新しい表現に挑戦した意欲作",
-      status: "公開中",
-      color: "#7c3aed"
-    }
   ];
 
   return (
@@ -112,7 +106,7 @@ function GameShowcase() {
               <div className={styles.gameCardContent}>
                 <h3 className={styles.gameTitle}>{game.title}</h3>
                 <p className={styles.gameDescription}>{game.description}</p>
-                <Link className={styles.gameLink} to="/docs/games">
+                <Link className={styles.gameLink} to="/docs/test">
                   詳細を見る →
                 </Link>
               </div>
@@ -128,8 +122,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} - 一次創作ゲーム制作サークル`}
-      description="独創性あふれるオリジナルゲームを制作する一次創作サークルです。プレイヤーの心に響く体験を創造しています。">
+      title={`${siteConfig.title} - 一次創作サークル`}
+      description="私たちは山梨大学で一次創作を行っています．">
       <HomepageHeader />
       <main>
         <GameShowcase />
