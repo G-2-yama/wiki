@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>G^2 wiki Blog</title>
+        <link>https://G-2-yama.github.io/wiki/en/minutes</link>
+        <description>G^2 wiki Blog</description>
+        <lastBuildDate>Fri, 04 Jul 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[2025/07/04]]></title>
+            <link>https://G-2-yama.github.io/wiki/en/minutes/2025/07/04/minutes</link>
+            <guid>https://G-2-yama.github.io/wiki/en/minutes/2025/07/04/minutes</guid>
+            <pubDate>Fri, 04 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[☑Done]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="done">☑Done<a href="https://g-2-yama.github.io/wiki/en/minutes/2025/07/04/minutes#done" class="hash-link" aria-label="Direct link to ☑Done" title="Direct link to ☑Done">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="全体">全体<a href="https://g-2-yama.github.io/wiki/en/minutes/2025/07/04/minutes#%E5%85%A8%E4%BD%93" class="hash-link" aria-label="Direct link to 全体" title="Direct link to 全体">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="イベント">イベント<a href="https://g-2-yama.github.io/wiki/en/minutes/2025/07/04/minutes#%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88" class="hash-link" aria-label="Direct link to イベント" title="Direct link to イベント">​</a></h4>
+<ul>
+<li>親睦会に関するアナウンスメントを実施</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="wiki">Wiki<a href="https://g-2-yama.github.io/wiki/en/minutes/2025/07/04/minutes#wiki" class="hash-link" aria-label="Direct link to Wiki" title="Direct link to Wiki">​</a></h4>
+<ul>
+<li>Wikiを創設</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="新入部員プロジェクト">新入部員プロジェクト<a href="https://g-2-yama.github.io/wiki/en/minutes/2025/07/04/minutes#%E6%96%B0%E5%85%A5%E9%83%A8%E5%93%A1%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88" class="hash-link" aria-label="Direct link to 新入部員プロジェクト" title="Direct link to 新入部員プロジェクト">​</a></h3>
+<ul>
+<li>各々学習を実施</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tydying-up">Tydying up<a href="https://g-2-yama.github.io/wiki/en/minutes/2025/07/04/minutes#tydying-up" class="hash-link" aria-label="Direct link to Tydying up" title="Direct link to Tydying up">​</a></h3>
+<ul>
+<li>進捗確認</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="todo">📝ToDo<a href="https://g-2-yama.github.io/wiki/en/minutes/2025/07/04/minutes#todo" class="hash-link" aria-label="Direct link to 📝ToDo" title="Direct link to 📝ToDo">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="全体-1">全体<a href="https://g-2-yama.github.io/wiki/en/minutes/2025/07/04/minutes#%E5%85%A8%E4%BD%93-1" class="hash-link" aria-label="Direct link to 全体" title="Direct link to 全体">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="イベント-1">イベント<a href="https://g-2-yama.github.io/wiki/en/minutes/2025/07/04/minutes#%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88-1" class="hash-link" aria-label="Direct link to イベント" title="Direct link to イベント">​</a></h4>
+<ul>
+<li>親睦会の参加可否回答 (@各々)</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="wiki-1">Wiki<a href="https://g-2-yama.github.io/wiki/en/minutes/2025/07/04/minutes#wiki-1" class="hash-link" aria-label="Direct link to Wiki" title="Direct link to Wiki">​</a></h4>
+<ul>
+<li>普通に使用できるところまで整備 (@nnna)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="新入部員プロジェクト-1">新入部員プロジェクト<a href="https://g-2-yama.github.io/wiki/en/minutes/2025/07/04/minutes#%E6%96%B0%E5%85%A5%E9%83%A8%E5%93%A1%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88-1" class="hash-link" aria-label="Direct link to 新入部員プロジェクト" title="Direct link to 新入部員プロジェクト">​</a></h3>
+<ul>
+<li>学習を進行 (@各々)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tydying-up-1">Tydying up<a href="https://g-2-yama.github.io/wiki/en/minutes/2025/07/04/minutes#tydying-up-1" class="hash-link" aria-label="Direct link to Tydying up" title="Direct link to Tydying up">​</a></h3>
+<ul>
+<li>夏季休暇までの日程調整 (@スラリン，PM)</li>
+</ul>]]></content:encoded>
+            <category>Tydiyng Up</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwiki=self.webpackChunkwiki||[]).push([[1193],{8196:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/wiki/en/minutes","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"\u8b70\u4e8b\u9332\u4e00\u89a7","blogTitle":"\u8b70\u4e8b\u9332"}}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwiki=self.webpackChunkwiki||[]).push([[7956],{5537:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"2025/07/04","permalink":"/wiki/minutes/2025/07/04/minutes","unlisted":false,"date":"2025-07-04T00:00:00.000Z"}]}')}}]);

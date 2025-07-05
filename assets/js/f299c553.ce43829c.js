@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwiki=self.webpackChunkwiki||[]).push([[5845],{8152:i=>{i.exports=JSON.parse('{"blogBasePath":"/wiki/minutes","blogTitle":"\u8b70\u4e8b\u9332","authorsListPath":"/wiki/minutes/authors"}')}}]);
