@@ -69,6 +69,26 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'minutes',
+        routeBasePath: 'minutes',
+        path: './minutes',
+        blogTitle: '議事録',
+        blogDescription: '議事録一覧',
+        showReadingTime: false,
+        feedOptions: {
+          type: ['rss', 'atom'],
+          xslt: true,
+        },
+        editUrl: 'https://github.com/G-2-yama/wiki/edit/main/',
+        onUntruncatedBlogPosts: 'ignore',
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/social_card.jpg',
@@ -86,6 +106,7 @@ const config: Config = {
           label: 'Docs',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/minutes', label: '議事録', position: 'left'},
         {
           href: 'https://github.com/G-2-yama',
           label: 'GitHub',

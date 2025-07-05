@@ -1,0 +1,50 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "The label of footer link with label=Tutorial linking to /docs/about-wiki/edit-way"
+  },
+  "link.item.label.X": {
+    "message": "X",
+    "description": "The label of footer link with label=X linking to https://x.com/g2_yama"
+  },
+  "link.item.label.YouTube": {
+    "message": "YouTube",
+    "description": "The label of footer link with label=YouTube linking to https://www.youtube.com/channel/UC1XMHED8EGZWsgyNz3e2OnA"
+  },
+  "link.item.label.旧ホームページ": {
+    "message": "旧ホームページ",
+    "description": "The label of footer link with label=旧ホームページ linking to http://g2yamanashi.web.fc2.com/index.html"
+  },
+  "link.item.label.新ホームページ(制作中)": {
+    "message": "新ホームページ(制作中)",
+    "description": "The label of footer link with label=新ホームページ(制作中) linking to https://g-2-yama.github.io/website/"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to /blog"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/G-2-yama"
+  },
+  "link.item.label.Booth": {
+    "message": "Booth",
+    "description": "The label of footer link with label=Booth linking to https://g2yama.booth.pm/"
+  },
+  "copyright": {
+    "message": "© 2025 G^2.",
+    "description": "The footer copyright"
+  }
+}
