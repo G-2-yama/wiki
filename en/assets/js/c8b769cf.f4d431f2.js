@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwiki=self.webpackChunkwiki||[]).push([[7347],{401:i=>{i.exports=JSON.parse('{"tags":[{"label":"Tidying Up","permalink":"/wiki/en/minutes/tags/tidying-up","description":"Tidying Up\uff083D\u30a2\u30af\u30b7\u30e7\u30f3\u30b2\u30fc\u30e0\uff09\u306b\u95a2\u3059\u308b\u30bf\u30b0","count":1}]}')}}]);
