@@ -266,7 +266,7 @@ function HomepageHeader() {
 function ProjectShowcase() {
   const projects = [
     {
-      title: "Tydying up",
+      title: "Tidying up",
       description: "難易度高めの3Dアクションゲーム．様々な場所にあるおもちゃを操作しておもちゃ箱に片づけるゲームです．",
       status: "開発中",  // 開発中 | 公開中 | 企画中
       technologies: ["Unity", "C#", "Blender"]
