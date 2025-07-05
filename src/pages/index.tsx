@@ -336,7 +336,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`${siteConfig.title} - 山梨大学 一次創作サークル`}
-      description="山梨大学の一次創作サークルG2です。">
+      description="山梨大学の一次創作サークルG^2です。">
       <HomepageHeader />
       <main>
         <ProjectShowcase />
