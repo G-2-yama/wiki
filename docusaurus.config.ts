@@ -113,7 +113,7 @@ const config: Config = {
           type: 'docSidebar',
           docsPluginId: 'circle-info',
           sidebarId: 'circleInfoSidebar',
-          label: '組織情報',
+          label: 'サークル情報',
           position: 'left',
         },
         {to: '/blog', label: 'ニュース', position: 'left'},

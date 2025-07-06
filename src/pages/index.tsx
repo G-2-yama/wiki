@@ -317,10 +317,10 @@ function JoinSection() {
             </p>
           </div>
           <div className={styles.joinActions}>
-            <Link className={styles.joinButton} to="/">
+            <Link className={styles.joinButton} to="circle-info/how-to-join">
               参加
             </Link>
-            <Link className={styles.contactButton} to="/">
+            <Link className={styles.contactButton} to="https://x.com/messages/compose?recipient_id=2149941804">
               お問い合わせ
             </Link>
           </div>
