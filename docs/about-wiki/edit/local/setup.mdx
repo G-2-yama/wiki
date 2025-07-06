@@ -1,0 +1,123 @@
+---
+sidebar_position: 1
+autors: nnna
+title: 環境セットアップ
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# 編集環境のセットアップ
+本記事は，ローカルでG^2 Wikiの編集を行うための環境を構築することを目的としている．
+
+:::danger[気を付けてほしいこと]
+本Wikiはソースコードも含め全て一般に公開されており，全く秘匿性はありません．  
+そのため，個人情報の取扱いに十分注意し，公開しても問題ない情報だけを記述することに注意する．
+:::
+
+## 前提条件
+Windowsの場合は，WSLがインストールされていること．  
+Mac，Linuxの場合は特にない．
+
+## 手順
+### Homebrewのインストール
+> Homebrewのインストールページ：https://brew.sh/ja/
+
+:::warning[]
+複数のパッケージマネージャーを使用する際は，どちらかのパスをaliasなどで優先させることを推奨する．
+:::
+
+:::info[Homebrew以外のパッケージ管理ツールを使う場合]
+`apt`や`pacman`などでパッケージ管理を行う場合，この章を飛ばしてもよい．  
+その場合，以降のパッケージインストール手順は自身の環境に合わせて行うこと．
+:::
+
+パッケージ管理ツールとして，個人的にHomebrewをお勧めする(最新のパッケージを利用できるため)．  
+そのため，まずはHomebrewのインストール方法を説明する．
+
+Homebrewは，任意のターミナル(Windowsの場合はWSL)上で[公式ページ](https://brew.sh/ja/)に書いてあるコマンドを実行するとインストールできる．  
+(本ページ作成時点では，以下のコマンドであった．)
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+インストール後は，`Next Step`に書いてあることを1つずつ実行していく．  
+これでパスが通り，brewが使えるようになる．  
+以下のコマンドを実行してバージョンが出力されればインストール完了である．
+```shell
+brew --version
+```
+
+<br />
+### Node.jsのインストール
+[Node.js](https://nodejs.org/ja)は，オープンソースのJavaScriptの実行環境である．  
+Docusaurus(本Wiki)の実行にもNode.jsを使用するため，インストールする．
+
+以下のコマンドを実行して，インストールする．
+```shell
+brew install node
+```
+以下のコマンドでバージョンが出力されればインストール完了である．
+```shell
+node --version
+```
+
+<br />
+### yarnのインストール
+[Node.js](https://nodejs.org/ja)をインストールすればおそらく同時に[npm](https://www.npmjs.com/)もインストールされていて，これでもモジュールやパッケージのインストール，Docusaurus関連のコマンドの実行は可能であるが，[yarn](https://yarnpkg.com/)の方が(少しだけだが)動作が速いという噂があるため，ここでは[yarn](https://yarnpkg.com/)をインストールする．  
+（アイコンの猫もかわいいし，ね）
+
+以下のコマンドを実行して，インストールする．
+```shell
+brew install yarn
+```
+以下のコマンドでバージョンが出力されればインストール完了である．
+```shell
+yarn --version
+```
+
+<br />
+### Wikiリポジトリのクローン
+:::info[Gitの設定]
+Git関係の設定については，Gitに関するドキュメントを参照すること．
+:::
+Wikiリポジトリをクローンしていない場合は，ここでクローンしておく．  
+
+<details>
+  <summary>Homebrewでgitをインストールする場合</summary>
+
+  以下のコマンドを実行する．
+  ```
+  brew install git
+  ```
+</details>
+
+以下のコマンドを実行して，クローンを行う．
+<Tabs>
+  <TabItem value="html-ssh" label="ssh" default>
+    ```
+    git clone git@github.com:G-2-yama/wiki.git
+    ```
+  </TabItem>
+  <TabItem value="html-clone" label="html">
+    ```
+    git clone https://github.com/G-2-yama/wiki.git
+    ```
+  </TabItem>
+</Tabs>
+
+<br />
+### 依存パッケージのインストール
+続いて，package.jsonの中身(Docusaurusのビルドに必要な依存関係)をインストールする．  
+
+まずは，クローンしたリポジトリに入る．  
+（前章でクローンしたのであれば，`cd wiki`でリポジトリに入る．）
+
+リポジトリのルート（package.jsonやdocusaurus.config.tsがあるディレクトリ）であることを確認して，以下のコマンドを実行する．
+```
+yarn
+```
+暫く待つと，依存関係のインストールが完了する．
+
+---
+
+以上でG^2 Wikiを編集するための環境はセットアップ完了である．
