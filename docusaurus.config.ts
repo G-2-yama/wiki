@@ -130,7 +130,7 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Community',
+          title: '広報',
           items: [
             {
               label: 'X',
@@ -140,6 +140,11 @@ const config: Config = {
               label: 'YouTube',
               href: 'https://www.youtube.com/channel/UC1XMHED8EGZWsgyNz3e2OnA',
             },
+          ],
+        },
+        {
+          title: 'ホームページ',
+          items: [
             {
               label: '旧ホームページ',
               href: 'http://g2yamanashi.web.fc2.com/index.html',
@@ -148,15 +153,11 @@ const config: Config = {
               label: '新ホームページ(制作中)',
               href: 'https://g-2-yama.github.io/website/',
             },
-          ],
+          ]
         },
         {
-          title: 'More',
+          title: '開発・販売',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/G-2-yama',
