@@ -46,8 +46,6 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/G-2-yama/wiki/edit/main/',
-            showLastUpdateAuthor: true,
-            showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
