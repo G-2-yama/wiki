@@ -118,15 +118,6 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              href: '/docs/about-wiki/edit-way',
-            },
-          ],
-        },
-        {
           title: 'Community',
           items: [
             {
