@@ -71,6 +71,16 @@ const config: Config = {
 
   plugins: [
     [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'circle-info',
+        path: './circle-info',
+        routeBasePath: 'circle-info',
+        sidebarPath: require.resolve('./sidebars.ts'),
+        editUrl: 'https://github.com/G-2-yama/wiki/edit/main/',
+      },
+    ],
+    [
       '@docusaurus/plugin-content-blog',
       {
         id: 'minutes',
@@ -101,17 +111,19 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          docsPluginId: 'circle-info',
+          sidebarId: 'circleInfoSidebar',
+          label: '組織情報',
           position: 'left',
-          label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/minutes', label: '議事録', position: 'left'},
+        {to: '/blog', label: 'ニュース', position: 'left'},
         {
-          href: 'https://github.com/G-2-yama',
-          label: 'GitHub',
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
           position: 'right',
+          label: '資料庫',
         },
+        {to: '/minutes', label: '議事録', position: 'right'},
       ],
     },
     footer: {
