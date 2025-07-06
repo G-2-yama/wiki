@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwiki=self.webpackChunkwiki||[]).push([[2966],{5787:e=>{e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"Git","slug":"/category/git","permalink":"/wiki/en/docs/category/git","sidebar":"tutorialSidebar","navigation":{"next":{"title":"\u64cd\u4f5c\u65b9\u6cd5(CLI)","permalink":"/wiki/en/docs/about-git/"}}}}')}}]);
