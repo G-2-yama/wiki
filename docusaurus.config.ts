@@ -45,7 +45,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/G-2-yama/wiki/edit/main/',
+            'https://github.dev/G-2-yama/wiki/edit/main/',
         },
         blog: {
           showReadingTime: true,
@@ -56,7 +56,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/G-2-yama/wiki/edit/main/',
+            'https://github.dev/G-2-yama/wiki/edit/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -77,7 +77,7 @@ const config: Config = {
         path: './circle-info',
         routeBasePath: 'circle-info',
         sidebarPath: require.resolve('./sidebars.ts'),
-        editUrl: 'https://github.com/G-2-yama/wiki/edit/main/',
+        editUrl: 'https://github.dev/G-2-yama/wiki/edit/main/',
       },
     ],
     [
@@ -93,7 +93,7 @@ const config: Config = {
           type: ['rss', 'atom'],
           xslt: true,
         },
-        editUrl: 'https://github.com/G-2-yama/wiki/edit/main/',
+        editUrl: 'https://github.dev/G-2-yama/wiki/edit/main/',
         onUntruncatedBlogPosts: 'ignore',
       },
     ],
