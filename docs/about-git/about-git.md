@@ -1,6 +1,7 @@
 ---
-autors: nnna
 title: 操作方法(CLI)
+authors: nnna
+date: 2025-07-07
 ---
 
 # Git概説 実践編(CLI)
