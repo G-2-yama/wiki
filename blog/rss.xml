@@ -4,10 +4,20 @@
         <title>G^2 wiki Blog</title>
         <link>https://G-2-yama.github.io/wiki/blog</link>
         <description>G^2 wiki Blog</description>
-        <lastBuildDate>Sat, 05 Jul 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Jul 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[GitHub.devについて]]></title>
+            <link>https://G-2-yama.github.io/wiki/blog/2025/07/07/git-dev</link>
+            <guid>https://G-2-yama.github.io/wiki/blog/2025/07/07/git-dev</guid>
+            <pubDate>Mon, 07 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[どうやらurlのgithub.comをgithub.devに変えると，vscodeライクなエディタでGitHub上のファイルを直接編集できるらしい．]]></description>
+            <content:encoded><![CDATA[<p>どうやらurlの<code>github.com</code>を<code>github.dev</code>に変えると，vscodeライクなエディタでGitHub上のファイルを直接編集できるらしい．<br>
+ただし，codespace（有料ユーザ限定）と違って，github.dev（無料ユーザでもアクセス可能）は，ターミナルなどにはアクセスできないらしい．</p>
+<p>時間があるときに，G^2 Wikiをこれで簡単に編集できないか試してみる．</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Me at the zoo]]></title>
             <link>https://G-2-yama.github.io/wiki/blog/2025/07/05/test</link>

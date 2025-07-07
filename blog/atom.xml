@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://G-2-yama.github.io/wiki/blog</id>
     <title>G^2 wiki Blog</title>
-    <updated>2025-07-05T00:00:00.000Z</updated>
+    <updated>2025-07-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://G-2-yama.github.io/wiki/blog"/>
     <subtitle>G^2 wiki Blog</subtitle>
     <icon>https://G-2-yama.github.io/wiki/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[GitHub.devについて]]></title>
+        <id>https://G-2-yama.github.io/wiki/blog/2025/07/07/git-dev</id>
+        <link href="https://G-2-yama.github.io/wiki/blog/2025/07/07/git-dev"/>
+        <updated>2025-07-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[どうやらurlのgithub.comをgithub.devに変えると，vscodeライクなエディタでGitHub上のファイルを直接編集できるらしい．]]></summary>
+        <content type="html"><![CDATA[<p>どうやらurlの<code>github.com</code>を<code>github.dev</code>に変えると，vscodeライクなエディタでGitHub上のファイルを直接編集できるらしい．<br>
+ただし，codespace（有料ユーザ限定）と違って，github.dev（無料ユーザでもアクセス可能）は，ターミナルなどにはアクセスできないらしい．</p>
+<p>時間があるときに，G^2 Wikiをこれで簡単に編集できないか試してみる．</p>]]></content>
+        <author>
+            <name>nnna</name>
+            <uri>https://www.youtube.com/@nh7cs</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Me at the zoo]]></title>
         <id>https://G-2-yama.github.io/wiki/blog/2025/07/05/test</id>
