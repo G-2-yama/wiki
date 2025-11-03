@@ -11,13 +11,14 @@ G^2はその2日目，3日目にLC-22教室にて「私たちが制作したゲ�
 
 
 ![main poster](2025poster4print.jpg)
-![game list](gamelist_of_2025univfes.jpg)
 
 <!-- truncate -->
 
 今年は昨年までに制作した作品に加えて，新たに6つのゲームを展示に加えました．
 
 「Tidying Up」と「Elude Notes」が共同制作，「Tetjong」，「Repair Paper」，「Dulandal」，「泣かぬなら斬ってしまおうホトトギス」(ポスターには未記載)が個人製作の作品となっております．
+
+![game list](gamelist_of_2025univfes.jpg)
 
 ご来場いただいた皆様が楽しそうにこれらの作品を遊ばれているのを見ていて，大変うれしく思いました．
 
