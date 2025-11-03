@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://G-2-yama.github.io/wiki/en/blog</id>
     <title>G^2 wiki Blog</title>
-    <updated>2025-07-07T00:00:00.000Z</updated>
+    <updated>2025-11-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://G-2-yama.github.io/wiki/en/blog"/>
     <subtitle>G^2 wiki Blog</subtitle>
     <icon>https://G-2-yama.github.io/wiki/en/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[第22回梨甲祭]]></title>
+        <id>https://G-2-yama.github.io/wiki/en/blog/2025/11/03/univ-fes</id>
+        <link href="https://G-2-yama.github.io/wiki/en/blog/2025/11/03/univ-fes"/>
+        <updated>2025-11-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[山梨大学で2025年10/31～11/2に第22回梨甲祭が行われました．]]></summary>
+        <content type="html"><![CDATA[<p>山梨大学で2025年10/31～11/2に第22回梨甲祭が行われました．
+G^2はその2日目，3日目にLC-22教室にて「私たちが制作したゲームの展示」を行いました．</p>
+<p>ご来場いただいたみなさん，興味を持っていただいたみなさん，本当にありがとうございました！</p>
+<p><img decoding="async" loading="lazy" alt="main poster" src="https://g-2-yama.github.io/wiki/en/assets/images/2025poster4print-3bebfa2dbe63827bb698314c4d0314b1.jpg" width="4344" height="6144" class="img_ev3q">
+<img decoding="async" loading="lazy" alt="game list" src="https://g-2-yama.github.io/wiki/en/assets/images/gamelist_of_2025univfes-6f61a9f210e9dc179ff9263682ccc8bb.jpg" width="4344" height="6144" class="img_ev3q"></p>
+<p>今年は昨年までに制作した作品に加えて，新たに6つのゲームを展示に加えました．</p>
+<p>「Tidying Up」と「Elude Notes」が共同制作，「Tetjong」，「Repair Paper」，「Dulandal」，「泣かぬなら斬ってしまおうホトトギス」(ポスターには未記載)が個人製作の作品となっております．</p>
+<p>ご来場いただいた皆様が楽しそうにこれらの作品を遊ばれているのを見ていて，大変うれしく思いました．</p>
+<p>また来年も新たな作品を追加して展示を行う予定ですので，引き続き私たちの活動を応援していただければ幸いです．</p>]]></content>
+        <author>
+            <name>nnna</name>
+            <uri>https://www.youtube.com/@nh7cs</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub.devについて]]></title>
         <id>https://G-2-yama.github.io/wiki/en/blog/2025/07/07/git-dev</id>
